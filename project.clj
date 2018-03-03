@@ -10,7 +10,7 @@
   :profiles {:dev {:dependencies [[org.clojure/clojure "1.8.0"]]}}
   :java-source-paths ["src"]
   :javac-options ["-target" "1.6" "-source" "1.6"]
-
+  :plugins [[lein-jammin "0.1.1"]]
   ;; Maven properties for the Maven God
   :scm {:url "git@github.com:ztellman/dirigiste.git"}
   :pom-addition [:developers [:developer
